@@ -7,8 +7,11 @@
 */Intermediate
 */Saved
 BuildingEscape/Content/StarterContent/
+BuildingEscape/.vs/BuildingEscape.uproject/v15/ipch/
 
 ######################
 # VS Generated Files #
 ######################
 *.VC.db
+*.VC.db-shm
+*.VC.db-wal
