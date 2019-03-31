@@ -1,0 +1,17 @@
+diff a/.gitignore b/.gitignore	(rejected hunks)
+@@ -7,12 +7,15 @@
+ */Intermediate
+ */Saved
+ BuildingEscape/Content/StarterContent/
++BuildingEscape/.vs/BuildingEscape/v15/ipch/
+ 
+ 
+ ######################
+ # VS Generated Files #
+ ######################
++#
+ *.VC.db
+ *.suo
+ *.VC.opendb
+ *.sln
++*.vs
