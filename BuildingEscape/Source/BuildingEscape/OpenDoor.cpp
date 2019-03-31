@@ -4,6 +4,7 @@
 #include "GameFramework/Actor.h"
 #include "Engine/World.h"
 
+
 // Sets default values for this component's properties
 UOpenDoor::UOpenDoor()
 {
@@ -26,17 +27,20 @@ void UOpenDoor::BeginPlay()
 	
 }
 
+
 void UOpenDoor::OpenDoor()
 {
 	// Set the rotation
 	Owner->SetActorRotation(FRotator(0.0f, OpenAngle, 0.0f));
 }
 
+
 void UOpenDoor::CloseDoor()
 {
 	// Set the rotation
 	Owner->SetActorRotation(FRotator(0.0f, 0.0f, 0.0f));
 }
+
 
 // Called every frame
 void UOpenDoor::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
