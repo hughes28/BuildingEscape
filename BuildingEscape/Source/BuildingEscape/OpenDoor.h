@@ -38,5 +38,7 @@ private:
 	float LastDoorOpenTime;
 
 	AActor* Owner = GetOwner();
-	AActor* ActorThatOpens; // Remember pawn inherits from Actor
+	
+	// Returns total mass in kg
+	float GetTotalMassOfActorsOnPlate();
 };
